@@ -27,7 +27,7 @@ public class Main {
         } catch(IOException ex){
             System.out.println(ex.getMessage());
         }catch (NumberFormatException e) {
-            System.out.println("mistake");
+            System.out.println("mistake" );
         }
     }
 }
