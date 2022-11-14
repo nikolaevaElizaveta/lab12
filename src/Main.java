@@ -26,7 +26,7 @@ public class Main {
             System.out.println("No such file");
         } catch(IOException ex){
             System.out.println(ex.getMessage());
-        }catch (NumberFormatException e){
+        }catch (NumberFormatException e) {
             System.out.println("mistake");
         }
     }
